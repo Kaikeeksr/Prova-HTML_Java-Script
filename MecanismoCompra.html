@@ -1,0 +1,40 @@
+<html lang="pt-br">
+	<head>
+		<title>Atividade</title>
+		<meta charset="UTF-8">
+		<script>	
+			
+			//Código para mecanismo de compra
+		
+			//Declarando a variavel
+			let produto1, valor1, quant1, produto2, valor2, quant2, produto3, valor3, quant3, equacao1, equacao2, equacao3, total;
+			//Prompt
+			produto1 = prompt("Digite o nome do primeiro produto!","Digite aqui");
+			valor1 = parseFloat(prompt("Digite o valor desse produto!","Digite aqui"));
+			quant1 = parseFloat(prompt("Digite a quantidade que deseja comprar!","Digite aqui"));
+			
+			produto2 = prompt("Digite o nome do segundo produto!","Digite aqui");
+			valor2 = parseFloat(prompt("Digite o valor desse produto!","Digite aqui"));
+			quant2 = parseFloat(prompt("Digite a quantidade que deseja comprar!","Digite aqui"));
+			
+			produto3 = prompt("Digite o nome do ultimo produto!","Digite aqui");
+			valor3 = parseFloat(prompt("Digite o valor desse produto!","Digite aqui"));
+			quant3 = parseFloat(prompt("Digite a quantidade que deseja comprar!","Digite aqui"));
+			//Equação
+			equacao1 = valor1 * quant1;
+			equacao2 = valor2 * quant2;
+			equacao3 = valor3 * quant3;
+			total = equacao1 + equacao2 + equacao3;
+			
+			document.write("Sua compra:"+"<br>");
+			document.write("<br>");
+			document.write(produto1 + " total:   "+"   "+ "R$" + equacao1.toFixed(2) + "<br>");
+			document.write(produto2 + " total:   "+"   "+ "R$" + equacao2.toFixed(2) + "<br>");
+			document.write(produto3 + " total:   "+"   "+ "R$" + equacao3.toFixed(2) + "<br>");
+			document.write("Total da compra: "+"   "+"R$"+ total.toFixed(2));
+			document.write("<br>");
+			document.write("<h3><strong>Obrigado por comprar conosco</strong></h3>");
+			
+		</script>
+		</head>
+</html>

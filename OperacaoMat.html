@@ -1,0 +1,36 @@
+<html lang="pt-br">
+    <head>
+        <title>Avaliação JavaScript</title>
+        <meta charset="UTF-8">
+        <script>
+			
+			//Código para operação Matemática
+		
+            let num1, num2, op, soma, sub, div, mult;
+            num1 = parseFloat(prompt("Digite o primeiro número","Digite aqui"));
+            num2 = parseFloat(prompt("Digite o segundo número","Digite aqui"));
+            op = parseFloat(prompt("Por favor, escolha a operação: 1-soma, 2-subtração, 3- divisão, 4- multiplicação", "Digite aqui"));
+            soma = (num1+num2)
+            sub =(num1-num2) 
+            div = (num1/num2)
+            mult = (num1*num2)
+            switch(op){
+                case 1:
+                document.write("Resultado: "+soma);
+                break;
+                case 2:
+                document.write("Resultado: "+sub);
+                break;
+                case 3:
+                document.write("Resultado: "+div);
+                break;
+                case 4:
+                document.write("Resultado: "+mult);
+                break
+            }
+        </script>        
+    </head>
+    <body>
+        
+    </body>
+</html>
