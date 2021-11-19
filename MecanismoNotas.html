@@ -1,41 +1,44 @@
 <html lang="pt-br">
     <head>
-        <title>Avaliação JavaScript</title>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<style>
-		body{
+  <title>Avaliação JavaScript</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    
+  <style>
+	body{
 		background-color:rgb(219, 219, 219);
-		}
-		</style>
+	  }			}
+  </style>
+	    
     </head>
-
     <body>
 	
         <script>
             
-			//Nomes: Marlon Raul dos Santos Romero e Kaike Santos Rocha
+	    //Nomes: Marlon Raul dos Santos Romero e Kaike Santos Rocha
 			
-            var nota1, nota2, nota3, nota4, media, funcao;
-             nota1= parseFloat(prompt("Por favor digite a primeira nota", "Digite aqui"));
-             nota2= parseFloat(prompt("Por favor digite a segunda nota", "Digite aqui"));
-             nota3= parseFloat(prompt("Por favor digite a terceira nota", "Digite aqui"));
-             nota4= parseFloat(prompt("Por favor digite a quarta nota", "Digite aqui"));
-             media= (nota1+nota2+nota3+nota4)/4;
-            document.write("<strong>Nota 1 : "+ nota1 +"</strong><br>" );
-            document.write("<strong>Nota 2 : "+ nota2 +"</strong><br>" );
-            document.write("<strong>Nota 3 : "+ nota3 +"</strong><br>" );
-            document.write("<strong>Nota 4 : "+ nota4 +"</strong><br>" );
-            document.write("<strong>Você ficou com "+media+" de média !</strong><br>");
+	var nota1, nota2, nota3, nota4, media, funcao;
+      	nota1= parseFloat(prompt("Por favor digite a primeira nota", "Digite aqui"));
+        nota2= parseFloat(prompt("Por favor digite a segunda nota", "Digite aqui"));
+        nota3= parseFloat(prompt("Por favor digite a terceira nota", "Digite aqui"));
+        nota4= parseFloat(prompt("Por favor digite a quarta nota", "Digite aqui"));
+        media= (nota1+nota2+nota3+nota4)/4;
+        document.write("<strong>Nota 1 : "+ nota1 +"</strong><br>" );
+        document.write("<strong>Nota 2 : "+ nota2 +"</strong><br>" );
+        document.write("<strong>Nota 3 : "+ nota3 +"</strong><br>" );
+        document.write("<strong>Nota 4 : "+ nota4 +"</strong><br>" );
+        document.write("<strong>Você ficou com "+media+" de média !</strong><br>");
             
-            if(media >=7){
-                document.write("<span style='color:green'><h1><strong>Aprovado</strong><h1></span>");
-            }else if (media <=5){
-                document.write("<span style='color:red'><strong>Reprovado</strong></span>");
-            }else{
+        	if(media >=7){
+                	document.write("<span style='color:green'><h1><strong>Aprovado</strong><h1></span>");
+            	}
+		else if (media <=5){
+                	document.write("<span style='color:red'><strong>Reprovado</strong></span>");
+            	}
+			else{
                 document.write("<span style='color:yellow'><strong>Recuperação</strong></span>");
-            } 
+            	} 
 
         
             </script>
